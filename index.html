@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Saray - Restaurant - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Stortorget Legesenter Torggata 83 2317 Hamar
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 8.00 am to 10.00 pm</span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">62522222</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          
+
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Restaurant St, Delicious City, <br>
+            London 9578, UK
+          </address>
+
+          <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+     
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              For the love of <br>
+              delicious food
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-2.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Flavors Inspired by <br>
+              the Seasons
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-3.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Where every flavor <br>
+              tells a story
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Come with family & feel the joy of mouthwatering food
+            </p>
+
+            <a href="#" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Menu</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        
+
+      </section>
+
+
+
+
+
+      
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+    
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+    
+
+      <!-- 
+        - #MENU
+      -->
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+    
+            <p class="section-subtitle text-center label-2">Special Selection</p>
+            <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+    
+            <ul class="grid-list">
+                <!-- PIZZARETTER -->
+                <li>
+                  <h3 class="title-3" style="text-align: center; color: #dfac06;">PIZZARETTER</h3>
+                  <ul>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Margarita</span> 
+                          <span class="span label-1">KR 129,000 – 190,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Opera</span>
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Hamar spesial</span> 
+                          <span class="span label-1">KR 159,000 – 269,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Mamma mia</span> 
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Vegetar</span>
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Kebab pizza</span> 
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Kylling pizza</span> 
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Husets spesial</span>
+                          <span class="span label-1">KR 155,000 – 264,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Din Egen pizza</span> 
+                          <span class="span label-1">KR 169,000 – 279,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Taco pizza</span> 
+                          <span class="span label-1">KR 149,000 – 255,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Marmaris pizza</span> 
+                          <span class="span label-1">KR 159,000 – 269,000</span>
+                      </li>
+                      <li style="display: flex; justify-content: space-between; align-items: center;">
+                          <span class="title-2" style="font-size: 1.2em;">Hawaii pizza</span> 
+                          <span class="span label-1">KR 149,000 – 259,000</span>
+                      </li>
+                  </ul>
+              </li>
+              
+    
+               <!-- KEBABRETTER -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">KEBABRETTER</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Mix tallerken</span>
+          <span class="span label-1">KR 209,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Mixcheeserull</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Mix rull</span>
+          <span class="span label-1">KR 169,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Mix pitabrod</span>
+          <span class="span label-1">KR 169,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Kebab tallerken</span>
+          <span class="span label-1">KR 199,000</span>
+      </li>
+  </ul>
+</li>
+
+
+<!-- NJ øTTRETTER -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">NJ øTTRETTER</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Biffsnadder</span>
+          <span class="span label-1">KR 249,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Kyllingsnadder</span>
+          <span class="span label-1">KR 249,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Hvitløkssnadder</span>
+          <span class="span label-1">KR 249,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Peppersnadder</span>
+          <span class="span label-1">KR 249,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Pepperbiff</span>
+          <span class="span label-1">KR 289,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Biff med bernais</span>
+          <span class="span label-1">KR 289,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Løvbiff tallerken</span>
+          <span class="span label-1">KR 219,000</span>
+      </li>
+  </ul>
+</li>
+
+<!-- SPESIALITET -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">SPESIALITET</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Texas Tallerken 250g Hot</span>
+          <span class="span label-1">KR 199,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Dallas Tallerken 250g</span>
+          <span class="span label-1">KR 199,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Viking Tallerken 250g</span>
+          <span class="span label-1">KR 199,000</span>
+      </li>
+  </ul>
+</li>
+
+<!-- Salat (SeasonSalat) -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">Salat (SeasonSalat)</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Skinkesalat</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">KyllingSalat</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Vegetarsalat</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Gresk Salat</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+  </ul>
+</li>
+
+<!-- AMERIKANSKE BURGER -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">AMERIKANSKE BURGER</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Hamburger</span>
+          <span class="span label-1">KR 74,000 – 84,000 – 119,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Cheeseburger</span>
+          <span class="span label-1">KR 84,000 – 94,000 – 129,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Baconcheeseburger</span>
+          <span class="span label-1">KR 94,000 – 104,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Hamburgertallerken</span>
+          <span class="span label-1">KR 109,000 – 129,000 – 169,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">CheeseburgerTallerken</span>
+          <span class="span label-1">KR 119,000 – 139,000 – 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Baconcheeseburgertallerken</span>
+          <span class="span label-1">KR 129,000 – 149,000 – 199,000</span>
+      </li>
+  </ul>
+</li>
+
+<!-- Guvec Retter -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">Guvec Retter</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Tavuk Guvec</span>
+          <span class="span label-1">KR 259,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Biff guvec</span>
+          <span class="span label-1">KR 275,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Mosakka</span>
+          <span class="span label-1">KR 249,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Osmanish kebab</span>
+          <span class="span label-1">KR 279,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Vegetar guvec</span>
+          <span class="span label-1">KR 219,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Tavuk shish (200gr)</span>
+          <span class="span label-1">KR 259,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Biff shish (200gr)</span>
+          <span class="span label-1">KR 275,000</span>
+      </li>
+  </ul>
+</li>
+
+<!-- Tekrar Para kazanin !-->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">Tekrar Para kazanin !</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">All</span>
+          <span class="span label-1">KR 479,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">All-VIP</span>
+          <span class="span label-1">KR 599,000</span>
+      </li>
+  </ul>
+</li>
+
+
+
+<!-- INNBAKT PIZZA -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">INNBAKT PIZZA</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Galzone</span>
+          <span class="span label-1">KR 179,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">UFO</span>
+          <span class="span label-1">KR 199,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">La Luna</span>
+          <span class="span label-1">KR 189,000</span>
+      </li>
+  </ul>
+</li>
+
+
+
+
+<!-- Dessert -->
+<li>
+  <h3 class="title-3" style="text-align: center; color: #dfac06;">Dessert</h3>
+  <ul>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Havoc Baklava</span>
+          <span class="span label-1">KR 109,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Kunefe</span>
+          <span class="span label-1">KR 109,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+          <span class="title-2" style="font-size: 1.2em;">Katmer</span>
+          <span class="span label-1">KR 129,000</span>
+      </li>
+  </ul>
+</li>
+
+
+
+<!--BARNEMENY-->
+
+  <li>
+    <h3 class="title-3" style="text-align: center; color: #dfac06;">Barnemeny</h3>
+    <ui>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">PIZZA</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">HamBurger</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">Kyllingkebab</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">Kebab og pommes Frites</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">Latin pommes Frites</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+      <li style="display: flex; justify-content: space-between;">
+        <span class="title-2" style="font-size: 1.2em;">Stor pommes Frites</span>
+        <span class="span label-1">KR 99,000</span>
+      </li>
+    </ui>
+  </li>
+
+
+
+    
+            <p class="menu-text text-center">
+                During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+            </p>
+    
+            <a href="#" class="btn btn-primary">
+                <span class="text text-1">View All Menu</span>
+                <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+    
+            <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+            <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-3 move-anim">
+    
+        </div>
+    </section>
+    
+    
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+     
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">Recent Updates</p>
+
+          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
+                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">Recipie</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    Flavour so good you’ll try to eat with your eyes.
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View Our Blog</span>
+
+            <span class="text text-2" aria-hidden="true">View Our Blog</span>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
